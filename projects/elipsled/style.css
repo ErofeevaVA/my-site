@@ -1,0 +1,266 @@
+body {
+  margin: 0;
+  padding: 0;
+  width: 1920px;
+  font-family: "Calibri", sans-serif;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 36px;
+  color: #616161;
+  background-image: url('img/background.png');
+  background-position: 80px 15px;
+  background-repeat: no-repeat;
+}
+
+.visually-hidden {
+  position: absolute;
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0;
+  border: 0;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+}
+
+.container {
+  width: 1250px;
+  margin: 0 auto;
+}
+
+.main-header-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.logo-container {
+  margin-top: 25px;
+  margin-right: 120px;
+  margin-bottom: 15px;
+}
+
+.site-navigation {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.site-navigation-item {
+  padding: 40px 0;
+  margin-right: 65px;
+}
+
+.site-navigation-link {
+  font-size: 18px;
+  line-height: 29px;
+  text-decoration: none;
+  color: #616161;
+}
+
+.phone-number-container {
+  padding: 40px 0;
+}
+
+.phone-number {
+  font-size: 18px;
+  line-height: 29px;
+  color: #141419;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.promo {
+  display: flex;
+  padding-bottom: 200px;
+  padding-top: 85px;
+  background-image: url("img/lamps-and-cow.png");
+  background-repeat: no-repeat;
+  background-position: 882px 0px;
+}
+
+.promo-text-column {
+  width: 715px;
+}
+
+.section-title-wrapper {
+  margin-bottom: 15px;
+}
+.section-title {
+  display: inline;
+  padding: 0;
+  margin: 0;
+  font-size: 60px;
+  line-height: 72px;
+  color: #141419;
+  font-weight: bold;
+  background-repeat: no-repeat;
+  background-position: center bottom 15px;
+  background-size: 100% 10px;
+  background-image: linear-gradient(to right, orange, orange);
+}
+
+.section-text {
+  padding: 0;
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.orange-text {
+  color: #fb973b;
+}
+
+.write-us-form {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.phone-wrapper input {
+  width: 195px;
+  height: 53px;
+  background-color: #f8f8f8;
+  border: 1px solid #e1e1e1;
+  font-size: 18px;
+  line-height: 31px;
+  color: #141419;
+  font-weight: 500;
+  font-family: "Calibri", sans-serif;
+  text-align: center;
+}
+
+.submit-wrapper input {
+  width: 195px;
+  height: 57px;
+  background-color: #fb973b;
+  border: none;
+  font-size: 18px;
+  line-height: 31px;
+  color: #ffffff;
+  font-weight: 500;
+  font-family: "Calibri", sans-serif;
+}
+
+.about-us {
+  margin-bottom: 90px;
+}
+
+
+.about-us .section-title-wrapper {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.about-us .section-text {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.about-us-wrapper {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.about-us-img-column {
+  width: 421px;
+  margin-left: 200px;
+  margin-right: 20px;
+}
+
+.about-us-text-column {
+  width: 405px;
+}
+
+.advantage-list {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.advantage-item {
+  width: 405px;
+  padding-top: 70px;
+  padding-bottom: 15px;
+  text-align: center;
+  font-size: 18px;
+  line-height: 25px;
+  color: #141419;
+}
+
+.advantage-item-1 {
+  padding-top: 50px;
+}
+
+.advantage-item-1, .advantage-item-2, .advantage-item-3 {
+  position: relative;
+}
+
+.advantage-item-1::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 0;
+  width: 21px;
+  height: 41px;
+  background-image: url('img/1.png');
+  background-size: 21px 41px;
+}
+
+.advantage-item-2::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 0;
+  width: 21px;
+  height: 61px;
+  background-image: url('img/2.png');
+  background-size: 21px 61px;
+}
+
+.advantage-item-3::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 0;
+  width: 21px;
+  height: 61px;
+  background-image: url('img/3.png');
+  background-size: 21px 61px;
+}
+.partners {
+  padding-bottom: 60px;
+}
+
+.partners-wrapper {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.partners-text-column {
+  width: 465px;
+  margin-right: 100px;
+}
+
+.partners-img-column {
+  width: 700px;
+  padding-top: 20px;
+}
+
+.partners-list {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  padding: 0;
+  margin: 0;
+  margin-right: -170px;
+  list-style: none;
+}
+
+.partners-item {
+  width: 260px;
+  margin-right: 170px;
+  margin-bottom: 55px;
+}

@@ -118,6 +118,16 @@ body {
   background-image: url("img/icon-css.svg");
 }
 
+.skill-js {
+  background-image: url("img/icon-js.svg");
+  background-size: 25px 25px;
+}
+
+.skill-php {
+  background-image: url("img/icon-php.svg");
+  background-size: 25px 25px;
+}
+
 .level {
   margin: 4px 0 16px;
   padding: 0;
@@ -161,6 +171,7 @@ body {
 .button {
   padding: 6px 20px;
   display: inline-block;
+  margin-bottom: 30px;
   vertical-align: baseline;
   text-decoration: none;
   text-transform: uppercase;
